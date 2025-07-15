@@ -10,6 +10,8 @@ import { schema as basicSchema } from 'prosemirror-schema-basic'
 import { addListNodes } from 'prosemirror-schema-list'
 import 'prosemirror-view/style/prosemirror.css'
 import 'prosemirror-menu/style/menu.css'
+import './awarenesscursor.css';
+
 
 
 // 1. Create schema with list support

@@ -1,0 +1,24 @@
+/* Required CSS for y-prosemirror cursor awareness */
+. yjs-cursor {
+    position: relative;
+    margin-left: -1px;
+    margin-right: -1px;
+    border-left: 2px solid orange;
+    border-right: none;
+    word-break: normal;
+    pointer-events: none;
+  }
+  
+  . yjs-cursor > div {
+    position: absolute;
+    top: -1.05em;
+    left: -1px;
+    font-size: 13px;
+    background-color: orange;
+    color: white;
+    padding: 1px 4px;
+    border-radius: 4px;
+    white-space: nowrap;
+    z-index: 100;
+  }
+  
