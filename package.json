@@ -31,6 +31,7 @@
     "@y/websocket-server": "^0.1.1",
     "prosemirror-example-setup": "^1.2.3",
     "prosemirror-keymap": "^1.2.3",
+    "prosemirror-menu": "^1.2.5",
     "prosemirror-model": "^1.25.2",
     "prosemirror-schema-basic": "^1.2.4",
     "prosemirror-state": "^1.4.3",
